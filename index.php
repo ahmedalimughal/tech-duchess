@@ -1,90 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
 
-<!-- Mirrored from azim.hostlin.com/Digmox/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Apr 2025 20:28:08 GMT -->
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+$page_name = "Home";
 
-<title>DigMox - HTML 5 Template Preview</title>
-
-<!-- Fav Icon -->
-<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap" rel="stylesheet">
-
-<!-- Stylesheets -->
-<link href="assets/css/font-awesome-all.css" rel="stylesheet">
-<link href="assets/css/flaticon.css" rel="stylesheet">
-<link href="assets/css/owl.css" rel="stylesheet">
-<link href="assets/css/bootstrap.css" rel="stylesheet">
-<link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-<link href="assets/css/animate.css" rel="stylesheet">
-<link href="assets/css/nice-select.css" rel="stylesheet">
-<link href="assets/css/odometer.css" rel="stylesheet">
-<link href="assets/css/elpath.css" rel="stylesheet">
-<link href="assets/css/rtl.css" rel="stylesheet">
-<link href="assets/css/style.css" rel="stylesheet">
-<link href="assets/css/module-css/header.css" rel="stylesheet">
-<link href="assets/css/module-css/banner.css" rel="stylesheet">
-<link href="assets/css/module-css/feature.css" rel="stylesheet">
-<link href="assets/css/module-css/about.css" rel="stylesheet">
-<link href="assets/css/module-css/service.css" rel="stylesheet">
-<link href="assets/css/module-css/process.css" rel="stylesheet">
-<link href="assets/css/module-css/funfact.css" rel="stylesheet">
-<link href="assets/css/module-css/video.css" rel="stylesheet">
-<link href="assets/css/module-css/testimonial.css" rel="stylesheet">
-<link href="assets/css/module-css/brand.css" rel="stylesheet">
-<link href="assets/css/module-css/project.css" rel="stylesheet">
-<link href="assets/css/module-css/cta.css" rel="stylesheet">
-<link href="assets/css/module-css/news.css" rel="stylesheet">
-<link href="assets/css/module-css/footer.css" rel="stylesheet">
-<link href="assets/css/responsive.css" rel="stylesheet">
-
-</head>
-
-
+include "includes/header.php"; ?>
 <!-- page wrapper -->
 <body>
 
     <div class="boxed_wrapper ltr">
 
 
-        <!-- preloader -->
-        <div class="loader-wrap">
-            <div class="preloader">
-                <div id="handle-preloader" class="handle-preloader">
-                    <div class="animation-preloader">
-                        <div class="spinner"></div>
-                        <div class="txt-loading">
-                            <span data-text-preloader="d" class="letters-loading">
-                                d
-                            </span>
-                            <span data-text-preloader="i" class="letters-loading">
-                                i
-                            </span>
-                            <span data-text-preloader="g" class="letters-loading">
-                                g
-                            </span>
-                            <span data-text-preloader="m" class="letters-loading">
-                                m
-                            </span>
-                            <span data-text-preloader="o" class="letters-loading">
-                                o
-                            </span>
-                            <span data-text-preloader="x" class="letters-loading">
-                                x
-                            </span>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <!-- preloader end -->
-
+        
+    <?php include "includes/preloader.php"; ?>
 
         <!-- page-direction -->
         <div class="page_direction">
